@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends of Corvallis Troop 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #003f87;
+            color: white;
+            margin: -20px -20px 30px -20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .photos {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .photos img {
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #003f87;
+        }
+
+        .section h2 {
+            color: #003f87;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .section p {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .officers {
+            margin-left: 20px;
+        }
+
+        .contact {
+            background-color: #e8f4f8;
+        }
+
+        .contact a {
+            color: #003f87;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .documents {
+            background-color: #fff9e6;
+        }
+
+        .documents ul {
+            list-style: none;
+            margin-left: 20px;
+        }
+
+        .documents li {
+            margin: 10px 0;
+        }
+
+        .documents a {
+            color: #003f87;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .documents a:hover {
+            text-decoration: underline;
+        }
+
+        .ein {
+            font-weight: bold;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .photos {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .photos img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Friends of Corvallis Troop 1!</h1>
+        </header>
+
+        <div class="photos">
+            <img src="Scout2.jpg" alt="Corvallis Troop 1 Scouts">
+        </div>
+
+        <div class="section">
+            <h2>Our Purpose</h2>
+            <p>Our purpose is to facilitate fundraising, manage charitable contributions, and provide financial and administrative support to BSA Corvallis Troop 1's educational, outdoor, and community service programs.</p>
+            <p class="ein">Friends of Corvallis Troop 1 is a 501(c)(3) nonprofit organization<br>EIN 39-4908811</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Officers</h2>
+            <div class="officers">
+                <p><strong>Jay Holavarri</strong> - President</p>
+                <p><strong>Larkin Holavarri</strong> - Treasurer</p>
+                <p><strong>Paul Watts</strong> - Secretary</p>
+            </div>
+        </div>
+
+        <div class="section contact">
+            <h2>Contact Information</h2>
+            <p>Please contact <a href="mailto:jay.holavarri@outlook.com">jay.holavarri@outlook.com</a> for information on how to donate to Troop 1</p>
+        </div>
+
+        <div class="section documents">
+            <h2>Documents</h2>
+            <ul>
+                <li><a href="Bylaws.pdf" target="_blank">Bylaws</a></li>
+                <li><a href="Conflict of Interest Policy.pdf" target="_blank">Conflict of Interest Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="photos">
+            <img src="Scout1.jpg" alt="Corvallis Troop 1 Scouts">
+        </div>
+    </div>
+</body>
+</html>
